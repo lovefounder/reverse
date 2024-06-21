@@ -19,7 +19,7 @@ def des_decrypt_ecb(ciphertext, key):
 
 
 # 示例使用
-ciphertext = "c4 9d 6f f8 3b 8e 77 8d"
-key = b'lovelove'  # DES密钥必须是8字节
+ciphertext = "28 70 77 48 7B 4F FF 3D"
+key = b'TakeEasy'  # DES密钥必须是8字节
 decrypted_data = des_decrypt_ecb(ciphertext, key)
 print("解密后的数据:", decrypted_data.decode())
